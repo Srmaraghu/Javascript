@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="color_switcher">
+        <span class="btn" id="white" onclick="changeBg('#FFFFFF')"></span>
+        <span class="btn" id="green" onclick="changeBg('#008000')"></span>
+        <span class="btn" id="maroon" onclick="changeBg('#800000')"></span>
+        <span class="btn" id="aqua" onclick="changeBg('#00FFFF')"></span>
+        <span class="btn" id="black" onclick="changeBg('#000000')"></span>
+    </div>
+    <h1 class="text">How are you people</h1>
+    <img src="Our Promise.jpg" alt="">
+    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nemo ducimus. Temporibus dolores blanditiis soluta saepe, iste voluptate, ipsa neque animi ex quos aliquid voluptas qui? Quibusdam tempora sequi ratione ipsa id perspiciatis cupiditate repudiandae? Nulla, ipsam eaque, officia excepturi ducimus error deleniti repellendus voluptatem quod enim id quo placeat voluptas. Quia alias ducimus sequi ratione eius, aliquam ipsam nesciunt sapiente libero porro commodi deleniti harum veniam unde eum, consectetur a dolorem distinctio, facilis dignissimos velit ullam voluptas. Ea vel soluta quaerat asperiores ab velit sed? At animi ipsam modi eligendi et veritatis officia accusantium quibusdam quod, incidunt cum consequatur, ullam magni esse commodi voluptate repellat architecto distinctio consectetur dolorum suscipit doloribus aut voluptas quas. Quas soluta, voluptate labore itaque consequatur fuga facere animi ipsam eligendi, nesciunt possimus ipsa? Unde repellendus, libero recusandae repellat ratione reiciendis exercitationem quis modi velit delectus soluta alias optio aspernatur porro laboriosam consequatur natus. Eum vero mollitia nesciunt. Ipsam beatae recusandae quae eveniet, voluptatem autem fugit nostrum accusamus quia labore minima minus alias voluptates tenetur vel distinctio soluta optio dolorum. Error beatae assumenda earum quam optio facilis fuga delectus? Alias saepe neque soluta quidem rem dolores adipisci et magnam ipsa, hic, harum accusantium cum. Odio.</p>
+
+<script>
+    function changeBg(color)
+    {
+        document.body.style.backgroundColor=color;
+
+        let txt=document.getElementsByClassName('text');
+
+        let buttons=document.getElementsByClassName('btn');
+
+        if(color=="#000000")
+        {
+           for(let elm of txt){
+            elm.style.color="white";
+           }
+
+           for(let border of buttons){
+            border.style.border="1px solid white";
+           }
+
+
+        }
+        else{
+            for(let elm of txt){
+            elm.style.color="black";
+           }
+
+           for(let border of buttons){
+            border.style.border="1px solid black";
+           }
+        }
+    }
+</script>
+</body>
+</html>

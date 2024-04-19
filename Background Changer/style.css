@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 20px 100px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    text-align: justify;
+    font-size: 19px;
+
+}
+#color_switcher{
+    text-align: right;
+}
+.btn{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#white{
+    background-color: white;
+
+}
+#green{
+    background-color: green;
+}
+#aqua{
+    background-color: aqua;
+}
+#maroon{
+    background-color: maroon;
+}
+#black{
+    background-color: black;
+}
