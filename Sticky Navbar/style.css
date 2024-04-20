@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    text-align: center;
+}
+#logo{
+    width: 200px;
+    height: auto;
+    color: antiquewhite;
+}
+#navbar{
+    text-align: center;
+    background-color: coral;    
+
+}
+#navbar ul li{
+    display:inline-block;
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* making the navbar stick  */
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#container{
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px ;
+}
+#container h1{
+    padding-bottom: 20px;
+}
+
+#conatainer p{
+    text-align: justify;
+    font-size: 19px;
+}
+

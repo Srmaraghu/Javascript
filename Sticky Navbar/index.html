@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sticky Navbar</title>
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="logo.jpg" alt=""></div>
+
+        <nav id="navbar" >
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>About US</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+
+        <div id="container">
+            <h1 class="text">How are you people</h1>
+            <img src="Our Promise.jpg" alt="" width="80%" height="auto">
+            <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nemo ducimus. Temporibus dolores blanditiis soluta saepe, iste voluptate, ipsa neque animi ex quos aliquid voluptas qui? Quibusdam tempora sequi ratione ipsa id perspiciatis cupiditate repudiandae? Nulla, ipsam eaque, officia excepturi ducimus error deleniti repellendus voluptatem quod enim id quo placeat voluptas. Quia alias ducimus sequi ratione eius, aliquam ipsam nesciunt sapiente libero porro commodi deleniti harum veniam unde eum, consectetur a dolorem distinctio, facilis dignissimos velit ullam voluptas. Ea vel soluta quaerat asperiores ab velit sed? At animi ipsam modi eligendi et veritatis officia accusantium quibusdam quod, incidunt cum consequatur, ullam magni esse commodi voluptate repellat architecto distinctio consectetur dolorum suscipit doloribus aut voluptas quas. Quas soluta, voluptate labore itaque consequatur fuga facere animi ipsam eligendi, nesciunt possimus ipsa? Unde repellendus, libero recusandae repellat ratione reiciendis exercitationem quis modi velit delectus soluta alias optio aspernatur porro laboriosam consequatur natus. Eum vero mollitia nesciunt. Ipsam beatae recusandae quae eveniet, voluptatem autem fugit nostrum accusamus quia labore minima minus alias voluptates tenetur vel distinctio soluta optio dolorum. Error beatae assumenda earum quam optio facilis fuga delectus? Alias saepe neque soluta quidem rem dolores adipisci et magnam ipsa, hic, harum accusantium cum. Odio.</p>
+        </div>
+
+        <script>
+            window.addEventListener('scroll',function(){
+                let navbar=document.getElementById('navbar');
+                if(window.pageYOffset>=204)
+                {
+                    navbar.classList.add('sticky');
+                }
+                else{
+                    navbar.classList.remove('sticky');
+
+                }
+            })
+        </script>
+</body>
+</html>
