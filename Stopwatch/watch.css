@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(0, 0, 139, 0.305);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    color: rgb(246, 242, 242);
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size:20px ;
+    color: white;
+    margin: 0px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+#start{
+
+    background-color: rgba(102, 223, 102, 0.492);
+}
+#stop{
+    background-color: rgba(241, 28, 28, 0.636);
+}
+#reset{
+background-color: slateblue;
+}
